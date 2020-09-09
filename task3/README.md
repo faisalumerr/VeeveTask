@@ -14,13 +14,12 @@
 1. Run the following command: ifconfig
 1. Find **inet addr: XXX.XXX.XXX.X** in the output, that is your private IP. Copy this IP to your clipboard
 1. Edit *prometheus.yml* and replace IP in the *static-configs* with the above copied IP address
-1. 
-
-
-
-
-Prometheus out is shown as below:
-
+1. Run command: sudo docker-compose up
+1. open chrome and go to webaddress: localhost:3000
+1. Loging grafana using following credentials
+      * username: admin
+      * password: password
+1. Run this command when you want to exit: sudo docker-compose down
 
 ## Output
 ### Grafana dashboard diplaying OS metrics:
