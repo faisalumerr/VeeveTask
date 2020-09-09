@@ -16,8 +16,16 @@
        
 1. Follow the below tutorial for setting up grafana's dashboard (from video time 11:58 onwards)
       *  [Grafana and Prometheus Setting up Tutorial](https://www.youtube.com/watch?v=4WWW2ZLEg74&t=699s&ab_channel=EddieZaneski)
-       
+      
 1. Run the following command when you want to stop the services: *bash close.bat*
+      
+## Grafana Dashboard
+![Screenshot from 2020-09-10 00-50-50](https://user-images.githubusercontent.com/60655044/92646461-e9201e80-f2ff-11ea-9c8f-a309132f75b3.png)
+
+
+       
+
+
 
 
 
