@@ -1,4 +1,4 @@
-## Same task as part 1 but now using containarized environment 
+## Prometheus and Grafana in containarized environment 
 
 1. Monitoring system resources with prometheus and displaying them on grafana dashboard. 
 1. Used node expoter to collect operating system metrics by exposing end nodes to prometheus.
