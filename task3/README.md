@@ -5,32 +5,35 @@
 1. Running all three services prometheus, node exporter and grafana in seperate docker containers. 
 
 ## Prerequisites
-* Docker installed
-* Docker compose installed
+* Docker installed (sudo apt install docker)
+* Docker compose installed (sudo apt install docker-compose)
+* Git installed (sudo apt install git)
 
 ## How to run?
-1. Download the files in a local folder on your PC.
-1. Change your working directory to that folder ( cd C:/Users/Desktop/...)
-1. Run the following command: ifconfig
-1. Find **inet addr: XXX.XXX.XXX.X** in the output, that is your private IP. Copy this IP to your clipboard
-1. Edit *prometheus.yml* and replace IP in the *static-configs* with the above copied IP address
+1. Clone the repository
+1. Change your working directory to the repository folder ( cd C:/Users/Desktop/...)
+1. Run the following command: ifconfig and copy private IP address
+1. Edit *prometheus.yml* and replace IP in the *static-configs* (2 occurences) with the above copied IP address
 1. Run command: sudo docker-compose up
 1. open chrome and go to webaddress: localhost:3000
-1. Loging grafana using following credentials
+1. Log in grafana using following credentials
       * username: admin
       * password: password
+      
+1. In settings section of grafana, add datasource
+     * Select prometheus
+     * In url add: "private ip:9090"
+     * Save & test
+     
+1. Import grafana dashboard (ID: 1860)
+     * Add prometheus as data source
+     
+     
 1. Run this command when you want to exit: sudo docker-compose down
 
 ## Output
 ### Grafana dashboard diplaying OS metrics:
-![GrafanaDashboard](https://oastic.com/wp-content/uploads/2018/07/grafana_header.png)
-
-
-
-
-
-
-
+![GrafanaDashboard](![Screenshot from 2020-09-10 17-07-50](https://user-images.githubusercontent.com/60655044/92727246-3cd64a80-f388-11ea-86ce-31f2fde04eb2.png))
 
 
 
