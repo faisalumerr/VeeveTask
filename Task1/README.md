@@ -3,7 +3,6 @@
 
 ## Prerequisites
 1. Running Ubuntu
-1. Chrome installed
 1. Git installed
 
 
