@@ -1,7 +1,14 @@
 # Prometheus and Grafana
 
+
+## Prerequisites
+1. Running Ubuntu
+1. Chrome installed
+1. Git installed
+
+
 ## Steps to follow:
-1. Download the files in to a folder
+1. Clone repository
 1. Open terminal
 1. Run command: *bash setup.bat*
       * The above command will download and unzip required files.
