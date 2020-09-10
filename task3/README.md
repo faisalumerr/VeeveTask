@@ -33,7 +33,7 @@
 
 ## Output
 ### Grafana dashboard diplaying OS metrics:
-![GrafanaDashboard](![Screenshot from 2020-09-10 17-07-50](https://user-images.githubusercontent.com/60655044/92727246-3cd64a80-f388-11ea-86ce-31f2fde04eb2.png))
+![GrafanaDashboard](https://user-images.githubusercontent.com/60655044/92727246-3cd64a80-f388-11ea-86ce-31f2fde04eb2.png)
 
 
 
